@@ -24,33 +24,57 @@
 </head>
 
 <body>
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="text-align: center; padding-bottom: 1em;">
-        <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">Welcome</h2>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">工程师培训管理系统</span>
+            </div>
+            <!-- Tabs -->
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">用户</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">个人中心</a>
+                <a class="mdl-navigation__link" href="">我的课程</a>
+                <a class="mdl-navigation__link" href="">修改资料</a>
+                <a class="mdl-navigation__link" href="">注销</a>
+            </nav>
         </div>
-        <form action="#">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
-                <label class="mdl-textfield__label" for="sample3">邮箱</label>
-            </div>
-            <br>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
-                <label class="mdl-textfield__label" for="sample3">用户名</label>
-            </div>
-            <br>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
-                <label class="mdl-textfield__label" for="sample3">密码</label>
-            </div>
-            <br>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="sample3">
-                <label class="mdl-textfield__label" for="sample3">手机号码</label>
-            </div>
-            <br>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect ">确认注册</button>
-        </form>
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                <div class="page-content">
+	                <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="text-align: center; padding-bottom: 1em;margin:auto; margin-top: 3.5%;">
+	        			<div class="mdl-card__title">
+	            			<h2 class="mdl-card__title-text">用户注册</h2>
+	        			</div>
+	        			<form action="#" style="padding-top: 1em;">
+	            			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	                			<input class="mdl-textfield__input" type="text" id="sample3">
+	                			<label class="mdl-textfield__label" for="sample3">邮箱</label>
+	            			</div>
+	            			<br>
+	            			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	                			<input class="mdl-textfield__input" type="text" id="sample3">
+	                			<label class="mdl-textfield__label" for="sample3">用户名</label>
+	            			</div>
+	            			<br>
+	            			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	                			<input class="mdl-textfield__input" type="text" id="sample3">
+	                			<label class="mdl-textfield__label" for="sample3">密码</label>
+	            			</div>
+	            			<br>
+	            			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	                			<input class="mdl-textfield__input" type="text" id="sample3">
+	                			<label class="mdl-textfield__label" for="sample3">手机号码</label>
+	            			</div>
+	            			<br>
+	            			<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect ">确认注册</button>
+	        			</form>
+	    			</div>
+            	</div>
+            </section>
+        </main>
     </div>
 </body>
 
